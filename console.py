@@ -165,7 +165,7 @@ class HBNBCommand(cmd.Cmd):
         print("[Usage]: show <className> <objectId>\n")
 
     def do_destroy(self, args):
-        """ Destroys a specified object """
+        """ Destroy a specified object on the line"""
         new = args.partition(" ")
         c_name = new[0]
         c_id = new[2]
